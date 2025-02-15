@@ -2,18 +2,18 @@
 
 namespace CSharpFeaturesTraining;
 
-internal class SimpleStack
+internal class SimpleStack<T>
 {
-    private readonly double[] _items;
-    private int currentIndex = -1;
-    public int Count => currentIndex+1;
+    private readonly T[] _items;
+    private int _currentIndex = -1;
+    public int Count => _currentIndex+1;
     public SimpleStack()
     {
-        _items = new double[10];
+        _items = new T[10];
     }
 
-    public void Push(double number) => _items[++currentIndex] = number;
+    public void Push(T Item) => _items[++_currentIndex] = Item;
 
 
-    public double Pop() => _items[currentIndex--];
+    public T Pop() => _items[_currentIndex--];
 }
