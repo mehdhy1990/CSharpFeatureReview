@@ -4,7 +4,7 @@ namespace CSharpFeaturesTraining.Repositories;
 
 public class GenericRepository<T>
 {
-    private readonly List<T> _items = new List<T>();
+    protected readonly List<T> _items = new List<T>();
 
     public void Add(T items) => _items.Add(items);
 
@@ -15,4 +15,9 @@ public class GenericRepository<T>
             Console.WriteLine(item);
         }
     }
+}
+
+public class GenericRepositoryWithRemove<T> : GenericRepository<T>
+{
+    public void Remove(T item) => _items.Remove(item);
 }
