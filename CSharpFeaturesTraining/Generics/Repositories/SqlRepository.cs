@@ -14,6 +14,11 @@ public class SqlRepository<T> : IRepository<T> where T : class, IEntityBase, new
         _dbSet = _context.Set<T>();
     }
 
+    public IEnumerable<T> GetAll()
+    {
+       return _dbSet.ToList();
+    }
+
     public T CreateItem()
     {
         return new T();

@@ -13,3 +13,16 @@ C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\D
 C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.genruntimeconfig.cache
 C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\ref\CSharpFeaturesTraining.dll
 C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.sourcelink.json
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.csproj.AssemblyReference.cache
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFe.0994037F.Up2Date

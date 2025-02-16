@@ -6,6 +6,11 @@ public class ListRepository<T> : IRepository<T> where T : IEntityBase,new()
 {
     protected readonly List<T> _items = new List<T>();
 
+    public IEnumerable<T> GetAll()
+    {
+       return _items.ToList();
+    }
+
     public T CreateItem()
     {
        return new T();
