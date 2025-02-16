@@ -1,28 +1,35 @@
 ﻿using CSharpFeaturesTraining.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CSharpFeaturesTraining.Repositories;
 
-public class SqlRepository<T> where T : class ,IEntityBase,new()
+public class SqlRepository<T> where T : class, IEntityBase, new()
 {
-    protected readonly List<T> _items = new List<T>();
+    private readonly DbContext _context;
+    private readonly DbSet<T> _dbSet;
+
+    public SqlRepository(DbContext context)
+    {
+        _context = context;
+        _dbSet = _context.Set<T>();
+    }
 
     public T CreateItem()
     {
         return new T();
     }
+
     public T? GetById(int id)
     {
-        return _items.Single(c => c.Id == id);
+        return _dbSet.Find(id);
         return null;
     }
 
-    public void Add(T items) => _items.Add(items);
+    public void Add(T items) => _dbSet.Add(items);
+    public void Remove(T items) => _dbSet.Remove(items);
 
     public void Save()
     {
-        foreach (var item in _items)
-        {
-            Console.WriteLine(item);
-        }
+        _context.SaveChanges();
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\CSharpFeaturesTraining.exe
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\CSharpFeaturesTraining.deps.json
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\CSharpFeaturesTraining.runtimeconfig.json
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\CSharpFeaturesTraining.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\bin\Debug\net9.0\CSharpFeaturesTraining.pdb
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.AssemblyInfoInputs.cache
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.AssemblyInfo.cs
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.csproj.CoreCompileInputs.cache
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\refint\CSharpFeaturesTraining.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.pdb
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.genruntimeconfig.cache
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\ref\CSharpFeaturesTraining.dll
+C:\Users\mehdi\RiderProjects\CSharpFeaturesTraining\CSharpFeaturesTraining\obj\Debug\net9.0\CSharpFeaturesTraining.sourcelink.json
