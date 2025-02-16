@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CSharpFeaturesTraining.Repositories;
 
-public class SqlRepository<T> where T : class, IEntityBase, new()
+public class SqlRepository<T> : IRepository<T> where T : class, IEntityBase, new()
 {
     private readonly DbContext _context;
     private readonly DbSet<T> _dbSet;
