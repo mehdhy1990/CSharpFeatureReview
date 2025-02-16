@@ -2,7 +2,7 @@
 
 namespace CSharpFeaturesTraining.Repositories;
 
-public class ListRepository<T> : IRepository<T> where T : IEntityBase,new()
+public class ListRepository<T> : IRepository<T> where T : IEntityBase,new() 
 {
     protected readonly List<T> _items = new List<T>();
 
