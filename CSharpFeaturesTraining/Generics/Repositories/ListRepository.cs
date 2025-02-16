@@ -2,7 +2,7 @@
 
 namespace CSharpFeaturesTraining.Repositories;
 
-public class GenericRepository<T> where T : class ,IEntityBase,new()
+public class ListRepository<T> where T : class ,IEntityBase,new()
 {
     protected readonly List<T> _items = new List<T>();
 
@@ -25,9 +25,4 @@ public class GenericRepository<T> where T : class ,IEntityBase,new()
             Console.WriteLine(item);
         }
     }
-}
-
-public class GenericRepositoryWithRemove<T> : GenericRepository<T> where T : EntityBase,new()
-{
-    public void Remove(T item) => _items.Remove(item);
 }

@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var employeeRepository = new GenericRepository<Employee>();
+        var employeeRepository = new ListRepository<Employee>();
         employeeRepository.Add(new Employee(){FirstName = "Julia"});
         employeeRepository.Add(new Employee(){FirstName = "asghar"});
         employeeRepository.Add(new Employee(){FirstName = "Akbar"});
