@@ -2,9 +2,15 @@
 
 namespace CSharpFeaturesTraining.Repositories;
 
-public class GenericRepository<T>
+public class GenericRepository<T> where T : class ,IEntityBase
 {
     protected readonly List<T> _items = new List<T>();
+
+    public T? GetById(int id)
+    {
+        return _items.Single(c => c.Id == id);
+        return null;
+    }
 
     public void Add(T items) => _items.Add(items);
 
@@ -17,7 +23,7 @@ public class GenericRepository<T>
     }
 }
 
-public class GenericRepositoryWithRemove<T> : GenericRepository<T>
+public class GenericRepositoryWithRemove<T> : GenericRepository<T> where T : EntityBase
 {
     public void Remove(T item) => _items.Remove(item);
 }
